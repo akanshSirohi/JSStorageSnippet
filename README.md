@@ -10,7 +10,7 @@ Set and get objects or string to browser's localstorage
 - Use `window.localstorage.setItem()` & `window.localstorage.getItem()` to deal with localstorage.
 - Use `typeof` to detect if given value is object or not.
 
-## Example Usage
+## Usage
 ```js
 storage("myKey", { key1: "MyValue_1", key2: "MyValue_2" }); // true if supported, false if not supported
 storage("myKey"); // Object { key1: "MyValue_1", key2: "MyValue_2" }
