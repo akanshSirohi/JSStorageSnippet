@@ -7,6 +7,13 @@ const storage = (key, value = null) => {
       } catch (e) {
         return false;
       }
+    }else{
+      try {
+        window.localStorage.setItem(key, value);
+        return true;
+      } catch (e) {
+        return false;
+      }
     }
   } else {
     let x = null;
